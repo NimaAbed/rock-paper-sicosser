@@ -1,0 +1,1 @@
+const userChoise = prompt("choise rock,paper,sissors")
