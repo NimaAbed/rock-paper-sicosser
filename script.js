@@ -33,7 +33,9 @@ if (!(userChoise === "")){
         }
     }else{
         console.log("You Wrote Wrong")
+        console.log("'Refresh The Site'")
     }
 }else{
-    console.log("You Are Cheated")
+        console.log("You Are Cheated")
+        console.log("'Refresh The Site'")
 }
