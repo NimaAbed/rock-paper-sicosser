@@ -1,1 +1,2 @@
-const userChoise = prompt("choise rock,paper,sissors")
+const userChoise = prompt("choise rock,paper,scissors")
+const choises = ["rock","paper","scissors"]
