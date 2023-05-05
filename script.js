@@ -23,6 +23,13 @@ if (!(userChoise === "")){
                     console.log("You Lose!")
                 }
             }
+            if(userChoise === "scissors"){
+                if(computerChoise === "paper"){
+                    console.log("You Win!")
+                }else{
+                    console.log("You Lose!")
+                }
+            }
         }
     }else{
         console.log("You Wrote Wrong")
