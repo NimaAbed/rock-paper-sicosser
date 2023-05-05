@@ -16,6 +16,13 @@ if (!(userChoise === "")){
                     console.log("You Lose!")
                 }
             }
+            if(userChoise === "paper"){
+                if(computerChoise === "rock"){
+                    console.log("You Win!")
+                }else{
+                    console.log("You Lose!")
+                }
+            }
         }
     }else{
         console.log("You Wrote Wrong")
