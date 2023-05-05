@@ -9,7 +9,13 @@ if (!(userChoise === "")){
         if(userChoise === computerChoise){
             console.log("It's Tie")
         }else{
-
+            if(userChoise === "rock"){
+                if(computerChoise === "scissors"){
+                    console.log("You Win!")
+                }else{
+                    console.log("You Lose!")
+                }
+            }
         }
     }else{
         console.log("You Wrote Wrong")
